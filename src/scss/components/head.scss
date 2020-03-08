@@ -1,0 +1,38 @@
+.head{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    .head-input{
+        background-color: rgba(0, 0, 0, 0.003);
+        height: 60px;
+        width: 100%;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        padding: 16px 16px 16px 60px;
+        font-size: 24px;
+        line-height: 60px;
+        background-color: -internal-light-dark-color(white, black);
+    }
+    .head-input:focus{
+        outline: none;
+    }
+    
+    .head-more{
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        line-height: 60px;
+        transform: rotate(90deg);
+        color: #e6e6e6;
+        font-size: 22px;
+        transition: all .3s;
+        cursor: pointer;
+    }
+    .more-active{
+        color: #737373;
+    }
+}

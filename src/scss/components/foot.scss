@@ -1,0 +1,39 @@
+.foot{
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    position: relative;
+    .middle-operate{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        cursor: pointer;
+        .operate-item{
+            height: 30px;
+            box-sizing: border-box;
+            padding: 0 10px;
+            border-radius: 3px;
+            text-align: center;
+            line-height: 30px;
+            border: 1px solid transparent;
+            transition: all .3s;
+        }
+        .operate-active{
+            border: 1px solid rgba(175, 47, 47, 0.2)
+        }
+    }
+
+    .clear-finish{
+        cursor: pointer;
+        &:hover{
+            text-decoration-line: underline;
+        }
+    }
+}
